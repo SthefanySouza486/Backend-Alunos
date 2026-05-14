@@ -17,7 +17,7 @@ import java.io.ByteArrayOutputStream;
 
 @RestController
 @RequestMapping("/finalizacao")
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "http://172.100.120.103:4200")
 public class RelatorioController {
     @Autowired
     private RelatorioService relatorioService;
